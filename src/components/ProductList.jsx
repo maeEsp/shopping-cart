@@ -28,7 +28,7 @@ const ProductList = ({ addToCart }) => {
                 {filteredProducts.map((product) => (
                     <div key={product.id} className="product-card p-4 border max-h-auto border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                         <img
-                            src={product.category.image} 
+                            src={product.images[0]} 
                             alt={product.title} 
                             className="w-full h-48 object-cover rounded-lg mb-4" 
                         />

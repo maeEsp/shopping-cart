@@ -36,6 +36,10 @@ const Home = () => {
         setCart([]); // Set cart to an empty array
     };
 
+    const checkout = () => {
+        navigate('/checkout', { state: { cart } });  // Pass cart as state to checkout
+    };
+
     return (
         <div className='flex'>
             <ProductList addToCart={addToCart} />
@@ -44,7 +48,7 @@ const Home = () => {
                 updateQuantity={updateQuantity} 
                 removeFromCart={removeFromCart} 
                 clearCart={clearCart} // Pass clearCart as a prop
-                checkout={() => navigate('/checkout')}
+                checkout={checkout}  // Use checkout function
             />
         </div>
     );

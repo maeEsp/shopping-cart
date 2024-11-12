@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 
-const Checkout = ({ cart, clearCart }) => {
+const Checkout = ({ cart }) => {
     const navigate = useNavigate();
     const total = cart.reduce((acc, { product, quantity }) => acc + product.price * quantity, 0);
 
     const handlePayment = () => {
         alert("Payment Successful");
-        clearCart();
         navigate('/');
     };
 
@@ -40,7 +39,7 @@ Checkout.propTypes = {
             quantity: PropTypes.number.isRequired,
         })
     ).isRequired,
-    clearCart: PropTypes.func.isRequired,
+    // clearCart: PropTypes.func.isRequired,
 };
 
 export default Checkout;
