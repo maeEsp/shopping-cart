@@ -41,16 +41,19 @@ const Home = () => {
     };
 
     return (
-        <div className='flex'>
-            <ProductList addToCart={addToCart} />
-            <Cart 
-                cart={cart} 
-                updateQuantity={updateQuantity} 
-                removeFromCart={removeFromCart} 
-                clearCart={clearCart} // Pass clearCart as a prop
-                checkout={checkout}  // Use checkout function
-            />
-        </div>
+        <main className='bg-neutral-100'>
+            <div className='flex'>
+                <ProductList addToCart={addToCart} />
+                <Cart 
+                    cart={cart} 
+                    updateQuantity={updateQuantity} 
+                    removeFromCart={removeFromCart} 
+                    clearCart={clearCart} // Pass clearCart as a prop
+                    checkout={checkout}  // Use checkout function
+                />
+            </div>
+        </main>
+
     );
 };
 

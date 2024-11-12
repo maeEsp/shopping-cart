@@ -8,7 +8,7 @@ A simple shopping cart application built with React, allowing users to browse pr
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/shopping-cart.git
+   git clone https://github.com/maeEsp/shopping-cart.git
    ```
 
 2. **Navigate to the project folder:**
@@ -32,20 +32,34 @@ A simple shopping cart application built with React, allowing users to browse pr
 
 ## Libraries Used
 
-- **React**: JavaScript library for building user interfaces.
-- **React Router**: For navigation between pages.
-- **Tailwind CSS**: Utility-first CSS framework for styling the application.
-- **PropTypes**: For type-checking props in React components.
-- **usehooks-ts**: A collection of useful React hooks.
+- **React**  
+  - *Description*: JavaScript library for building user interfaces.
+  - *Version*: 18.x.x
+
+- **React Router**
+  - *Description*: For navigation between pages.
+  - *Version*: 6.x.x
+
+- **Tailwind CSS**
+  - *Description*: Utility-first CSS framework for styling the application.
+  - *Version*: 3.x.x
+
+- **PropTypes**
+  - *Description*: For type-checking props in React components.
+
+- **usehooks-ts**
+  - *Description*: A collection of useful React hooks.
+  - *Version*: 1.x.x
 
 ---
 
 ## Image of the Shopping Cart
 
-![Shopping Cart](path_to_image/cart_image.png)
+## Images of the Shopping Cart
 
----
+### Home Page
+![Home Page](public/Home.png)
 
-## License
+### Checkout Page
+![Checkout Page](public/Checkout.png)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

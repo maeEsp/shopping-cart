@@ -14,8 +14,10 @@ const CheckoutPage = () => {
     };
 
     return (
-        <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-            <h2 className="text-2xl font-bold mb-6 text-center">Checkout</h2>
+        <main className='bg-neutral-200 min-h-screen'>
+
+        <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+            <h2 className="text-3xl mb-6 text-center">Checkout</h2>
             {cart.length === 0 ? (
                 <p className="text-center text-gray-500">Your cart is empty.</p>
             ) : (
@@ -26,9 +28,9 @@ const CheckoutPage = () => {
                                 <img
                                     src={product.images[0]} // Assuming first image is the main image
                                     alt={product.title}
-                                    className="w-16 h-16 object-cover rounded-md"
+                                    className="w-48 h-48 object-cover "
                                 />
-                                <div className="flex-1">
+                                <div className="flex-1 px-4 ">
                                     <p className="font-medium text-gray-800">{product.title}</p>
                                     <p className="text-gray-500">${product.price} x {quantity}</p>
                                 </div>
@@ -55,13 +57,13 @@ const CheckoutPage = () => {
                     <div className="flex justify-between mt-6">
                         <button
                             onClick={() => navigate(-1)}
-                            className="px-4 py-2 text-white bg-gray-500 rounded-md hover:bg-gray-600"
+                            className="px-4 py-2 w-24  border border-neutral-700 text-neutral-700 bg-neutral-50"
                         >
                             Cancel
                         </button>
                         <button
                             onClick={handlePayment}
-                            className="px-4 py-2 text-white bg-green-600 rounded-md hover:bg-green-700"
+                            className="px-4 py-2 w-24  border border-neutral-700 text-neutral-700 bg-neutral-50"
                         >
                             Pay
                         </button>
@@ -69,6 +71,8 @@ const CheckoutPage = () => {
                 </div>
             )}
         </div>
+        </main>
+
     );
 };
 
