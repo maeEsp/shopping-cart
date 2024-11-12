@@ -42,10 +42,7 @@ A simple shopping cart application built with React, allowing users to browse pr
 │   └── autoprefixer
 ├── prop-types
 ├── usehooks-ts
-├── vite
-└── @types
-    ├── react
-    └── react-dom
+└── vite
 
 ```
 
