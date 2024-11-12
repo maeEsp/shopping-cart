@@ -55,8 +55,6 @@ A simple shopping cart application built with React, allowing users to browse pr
 
 ## Image of the Shopping Cart
 
-## Images of the Shopping Cart
-
 ### Home Page
 ![Home Page](public/Home.png)
 
