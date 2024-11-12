@@ -1,8 +1,51 @@
-# React + Vite
+# Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple shopping cart application built with React, allowing users to browse products, add them to a cart, and proceed to checkout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run the Project
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/shopping-cart.git
+   ```
+
+2. **Navigate to the project folder:**
+   ```bash
+   cd shopping-cart
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Run the project locally:**
+   ```bash
+   npm start
+   ```
+
+   The app will be running at `http://localhost:3000/`.
+
+---
+
+## Libraries Used
+
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: For navigation between pages.
+- **Tailwind CSS**: Utility-first CSS framework for styling the application.
+- **PropTypes**: For type-checking props in React components.
+- **usehooks-ts**: A collection of useful React hooks.
+
+---
+
+## Image of the Shopping Cart
+
+![Shopping Cart](path_to_image/cart_image.png)
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
