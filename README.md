@@ -32,24 +32,22 @@ A simple shopping cart application built with React, allowing users to browse pr
 
 ## Libraries Used
 
-- **React**  
-  - *Description*: JavaScript library for building user interfaces.
-  - *Version*: 18.x.x
 
-- **React Router**
-  - *Description*: For navigation between pages.
-  - *Version*: 6.x.x
+```
+├── react
+│   ├── react-dom
+│   └── react-router-dom
+├── tailwindcss
+│   ├── postcss
+│   └── autoprefixer
+├── prop-types
+├── usehooks-ts
+├── vite
+└── @types
+    ├── react
+    └── react-dom
 
-- **Tailwind CSS**
-  - *Description*: Utility-first CSS framework for styling the application.
-  - *Version*: 3.x.x
-
-- **PropTypes**
-  - *Description*: For type-checking props in React components.
-
-- **usehooks-ts**
-  - *Description*: A collection of useful React hooks.
-  - *Version*: 1.x.x
+```
 
 ---
 
